@@ -1,0 +1,36 @@
+.product-list{
+    display: flex;
+justify-content: space-evenly;
+flex-wrap: wrap;
+gap: 30px;
+column-gap: 30px;
+margin-top: 30px;
+}
+.flex1{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    }
+    .box{
+        width: 19rem;
+        height: 22rem;
+    
+        border: 5px solid pink;
+    }
+    .box img{
+        width: 18rem;
+        height: 18rem;
+    }
+    .desc{
+        text-align: center;
+    font-weight: bold;
+    }
+    .date{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .price{
+        color: red;
+        font-weight: bold;
+    }
